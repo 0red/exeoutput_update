@@ -1,6 +1,6 @@
 # Files to be installed on the server
 
-`pmo.php` main update file
+`pmo.php` main update file (in case `check_user()` returns true - any update for the user will be deleted)
 
 `.htaccess` should be updated or rewriten (this is the Apache version -> rename to __.htaccess__)
 
