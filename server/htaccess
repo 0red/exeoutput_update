@@ -1,0 +1,11 @@
+Header set Access-Control-Allow-Origin "*"
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+order deny,allow
+Require all denied
+</Files>
+<Files ~ "^pmo.log|pmo_ver.txt|pmo_dat.txt|pmo_dat3.txt$">
+deny from all
+order deny,allow
+Require all denied
+</Files>
