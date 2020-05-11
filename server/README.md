@@ -6,7 +6,7 @@
 
 `pmo_ver.txt` should be created on the server
 
-in case of change pmo.php or other change rules to make them hidden
+__in case of change pmo.php or other change rules to make them hidden__
 
 ## Please remember to change ownership for dir and files 
 i.e. (Linux) `chown www-data:www-data .htaccess pmo_ver.txt pmo.php`
