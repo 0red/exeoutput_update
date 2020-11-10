@@ -1,5 +1,5 @@
-# exeoutput_update
-Exeoutput content updater
+# Exeoutput content updater
+My lovely [Exeoutput](https://www.exeoutput.com/) content updater implementation, which give You the ability to update the php,js,css files without exe reconfiguration, as well as give the possibility to add custom made access control to Your application and data.
 
 Please see [test.exop DemoApp](../../tree/master/exeoutput/) and [Wiki](../../wiki) 
 Enjoy
