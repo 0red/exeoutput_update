@@ -1,4 +1,6 @@
 Header set Access-Control-Allow-Origin "*"
+RewriteCond %{REQUEST_METHOD} (POST|GET|OPTIONS)
+RewriteRule (.*) $1 [L]
 <Files ~ "^\.(htaccess|htpasswd)$">
 deny from all
 order deny,allow
